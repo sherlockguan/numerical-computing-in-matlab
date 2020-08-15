@@ -7,7 +7,7 @@
 % 
 % f = @myfunction; lambda
 % sinHandle = @sin
-% You call a function using a handle the same way you call the function directly. For example, suppose that you have a function named computeSquare, defined as:
+% You call a function using a handle the same way you call the function directly. For example, suppose that you have a function named Function_function, defined as:
 
 
 function y = Function_function(x)
