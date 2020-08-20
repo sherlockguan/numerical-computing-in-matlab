@@ -6,3 +6,6 @@ major topics:<br />
 3. solving nonlinear systems of equation by combining  newton's method and jacobian matrix<br /> 
 4. ODE, PDE ect<br /> 
 
+
+## book image
+![myimg](https://user-images.githubusercontent.com/46273832/90808348-d3e84d80-e35a-11ea-8f1d-3142c8a56a97.jpg)
