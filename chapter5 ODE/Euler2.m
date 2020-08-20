@@ -8,7 +8,7 @@ clc;
 close all;
 
 
-delta = 0.1;y(1) = 0;% matlab index start from 1
+delta = 2*pi/13;y(1) = 0;% matlab index start from 1
 k = 0;
 for time = [delta: delta: 4*pi]
     k = k+1;
