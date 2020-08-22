@@ -14,3 +14,5 @@ major topics:<br />
 doc xxx<br />
 whos: check the properties of symbolic variables
 
+## NOTICE
+some functions or commands have changed in later versions of matlab, check the doc 
