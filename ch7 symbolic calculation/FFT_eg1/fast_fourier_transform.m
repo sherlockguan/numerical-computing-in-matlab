@@ -25,11 +25,11 @@ ylabel('Using the Matlab FFT command')
 grid on
 axis([0 100 0 200]) % x in [0 100] y in [0 200]
 %% but this graph we got looks not very well so we defined a func to fix it
-%% in matlab , in the same file must be at the END 
+%% in matlab , the function definition if included in the same file must be at the END 
 
 
 
-%% function define
+%% function calling
 [YfreqDomain, frequencyRange] = positiveFFT(y,Fs);
 stem(frequencyRange, abs(YfreqDomain));
 xlabel('Freq(Hz)');
@@ -38,6 +38,7 @@ title('using the posiveFFT function');
 grid on
 axis([0, 20, 0, 5])
 
+# function definition
 function [X, freq] = positiveFFT(x, Fs)
 N = length(x);  % get the number of points
 k = 0:N-1;
