@@ -1,4 +1,6 @@
-[t,y] = ode23('func_sys', [0 pi/2], [1;-1;0]);
+[t,y] = ode23('func_sys', [0 pi/2], [1;-1;0])
+% get 24*1 array of t and 24*3 array of y on the command window
+% whos:  to check
 plot(t,y(:,1), '+',t,y(:,2),'x',t,y(:,3),'o')
 hold
 
